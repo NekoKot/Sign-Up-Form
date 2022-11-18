@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,400&family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <div id="container">
+        <div id="main-left">
+            <img id="icon" src="/img/dreamTrav.png"/>
+            <div id="line"></div>
+            <p id="photo-autor">Photo by Gaddafi Rusli on <a id="photo-source" href="https://unsplash.com/photos/2ueUnL4CkV8">Unsplash</a></p>
+        </div>
+        <div id="main-right">
+            <p id="description">Buying tours online is easy! Fill out the form and register on the site to book a tour.</p>
+            <p id="else-description">You know you want to!</p>
+            <form id="form" method="post" action="">
+                <legend id="form-title">Let's do this!</legend>
+                <label for="user-data">FIRST NAME<input type="text" class="user-data" name="first-name" required></label>
+                <label for="user-data">LAST NAME<input type="text" class="user-data" name="last-name" required></label>
+                <label for="user-data">EMAIL<input type="email" class="user-data" name="email" required></label>
+                <label for="user-data">PHONE NUMBER<input type="number" class="user-data" name="amount"></label>
+                <label for="user-data">PASSWORD<input type="password" class="user-data last" name="password" required></label>
+                <label for="user-data">CONFIRM PASSWORD<input type="password" class="user-data" name="password" required></label>
+            </form>
+            <button type="submit">Create Account</button>
+            <p id="have-account">Already have an account? <a href="" id="log-in">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>

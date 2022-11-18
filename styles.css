@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+};
+
+html {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+    color: black;
+}
+
+#container {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#main-left {
+    width: 70%;
+    height: 100vh;
+    background-image: url(/img/gaddafi-rusli-2ueUnL4CkV8-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+#main-right {
+    width: 100%;
+    height: 100vh;
+    background-color: #f9fafb;
+}
+
+#line {
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+#icon {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 283px;
+    z-index: 1;
+}
+
+#photo-autor {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #000000;
+}
+
+a {
+    color: #000000;
+}
+
+#description {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+    margin: 165px 0 30px 50px;
+    font-size: 30px;
+    width: 80%;
+    font-weight: 500;
+}
+
+#else-description {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+    margin: 0 0 70px 50px;
+    font-size: 30px;
+    width: 80%;
+    font-weight: 500;
+}
+
+form {
+    width: auto;
+    height: 360px;
+    background-color: white;
+    box-shadow: 10px 7px 10px 1px rgb(189, 189, 189);
+}
+
+#form-title {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 50px;
+    padding: 20px 0 20px 0;
+}
+
+.user-data {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    display: block;
+    border: 1px solid #E5E7EB;
+}
+
+label {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+    display: inline-block;
+    margin: 15px 100px 20px 50px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 2px 3px 4px rgb(194, 194, 194);
+}
+
+input.user-data {
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+input:invalid[type="password"] + #last:after {
+    content: '*Password do not match';
+    position: relative;
+    border-color: red;
+  }
+
+button {
+    margin: 50px 0 0 50px;
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffa970;
+    box-shadow: 2px 3px 4px rgb(194, 194, 194);
+  }
+
+  #have-account {
+    margin: 30px 0 50px 50px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  #log-in {
+    color:#ffa970;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 1366px) {
+    form {
+        height: auto;
+    }
+    #main-right {
+        height: auto;
+    }
+    #main-left {
+        height: auto;
+    }
+  }
+    
