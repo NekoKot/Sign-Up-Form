@@ -148,8 +148,13 @@ button {
     color:#ffa970;
   }
 
+  #log-in:hover {
+    color: black
+  }
+
   button:hover {
     cursor: pointer;
+    background-color: #ff6600;
   }
 
   @media screen and (max-width: 1366px) {
