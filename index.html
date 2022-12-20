@@ -11,24 +11,24 @@
 <body>
     <div id="container">
         <div id="main-left">
-            <img id="icon" src="/img/dreamTrav.png"/>
+            <img id="icon" src="/img/dreamTrav.png" alt="Логотип компании Dream Travel"/>
             <div id="line"></div>
             <p id="photo-autor">Photo by Gaddafi Rusli on <a id="photo-source" href="https://unsplash.com/photos/2ueUnL4CkV8">Unsplash</a></p>
         </div>
         <div id="main-right">
             <p id="description">Buying tours online is easy! Fill out the form and register on the site to book a tour.</p>
             <p id="else-description">You know you want to!</p>
-            <form id="form" method="post" action="">
-                <legend id="form-title">Let's do this!</legend>
-                <label for="user-data">FIRST NAME<input type="text" class="user-data" name="first-name" required></label>
-                <label for="user-data">LAST NAME<input type="text" class="user-data" name="last-name" required></label>
-                <label for="user-data">EMAIL<input type="email" class="user-data" name="email" required></label>
-                <label for="user-data">PHONE NUMBER<input type="number" class="user-data" name="amount"></label>
-                <label for="user-data">PASSWORD<input type="password" class="user-data last" name="password" required></label>
-                <label for="user-data">CONFIRM PASSWORD<input type="password" class="user-data" name="password" required></label>
+            <form id="form" method="post" action="#">
+                <h1 id="form-title">Let's do this!</h1>
+                <label for="first-name">FIRST NAME<input type="text" class="user-info" id="first-name" name="first-name" required></label>
+                <label for="last-name">LAST NAME<input type="text" class="user-info" id="last-name" name="last-name" required></label>
+                <label for="email">EMAIL<input type="email" class="user-info" id="email" name="email" required></label>
+                <label for="phone-number">PHONE NUMBER<input type="tel" class="user-info" id="phone-number" name="phone" maxlength="50"></label>
+                <label for="password">PASSWORD<input type="password" class="user-info last" id="password" name="password" required></label>
+                <label for="confirm-password">CONFIRM PASSWORD<input type="password" class="user-info" id="confirm-password" name="password" required></label>
             </form>
             <button type="submit">Create Account</button>
-            <p id="have-account">Already have an account? <a href="" id="log-in">Log in</a></p>
+            <p id="had-account">Already have an account? <a href="" id="log-in">Log in</a></p>
         </div>
     </div>
 </body>

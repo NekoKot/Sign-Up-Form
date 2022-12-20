@@ -93,7 +93,7 @@ form {
     padding: 20px 0 20px 0;
 }
 
-.user-data {
+.user-info {
     width: 250px;
     height: 30px;
     border-radius: 5px;
@@ -114,16 +114,16 @@ input:focus {
     box-shadow: 2px 3px 4px rgb(194, 194, 194);
 }
 
-input.user-data {
+input.user-info {
     margin-top: 5px;
     padding-left: 10px;
 }
 
-input:invalid[type="password"] + #last:after {
+input:invalid[type="password"] + .last:after {
     content: '*Password do not match';
     position: relative;
     border-color: red;
-  }
+}
 
 button {
     margin: 50px 0 0 50px;
@@ -136,28 +136,28 @@ button {
     font-weight: 600;
     background-color: #ffa970;
     box-shadow: 2px 3px 4px rgb(194, 194, 194);
-  }
+}
 
-  #have-account {
+#had-account {
     margin: 30px 0 50px 50px;
     font-size: 20px;
     font-weight: 500;
-  }
+}
 
-  #log-in {
+#log-in {
     color:#ffa970;
-  }
+}
 
-  #log-in:hover {
+#log-in:hover {
     color: black
-  }
+}
 
-  button:hover {
+button:hover {
     cursor: pointer;
     background-color: #ff6600;
-  }
+}
 
-  @media screen and (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
     form {
         height: auto;
     }
@@ -167,5 +167,4 @@ button {
     #main-left {
         height: auto;
     }
-  }
-    
+}
